@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         `.replace(/ {12}/g, '');
                         break;
 
-                    // Add a new case for 'clear'
+                    
                     case "clear":
                         // Remove all children except the persistent input line
                         const allDivs = output.querySelectorAll('div');
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             • C++
                             • Python
                             • Reverse Engineering
-                        `.trim();
+                        `.replace(/ {12}/g, '');
                         break;
                 
                     case "projects":
